@@ -1,6 +1,6 @@
 (*Return the last element of a list*)
 
-let rec last lst = 
+let rec last_one lst = 
   match lst with
   | [] -> failwith "Empty List"
   | [x] -> x
